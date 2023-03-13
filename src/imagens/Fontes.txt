@@ -1,0 +1,5 @@
+PRINCIPAL:
+'system-ui', 'Segoe UI', 'sans-serif'
+
+H2 (bem vindo):
+'Open Sans', 'Helvetica Neue', 'sans-serif'

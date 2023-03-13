@@ -1,0 +1,74 @@
+@charset "UTF-8";
+
+
+main{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+.fileira{
+    display: flex;
+    margin: 0 auto;
+}
+.promo-p{
+    width: 500px;
+    height: 130px;
+    background-color: rgba(165, 42, 42, 0.432);
+    margin: 30px auto;
+}
+.itens{
+    margin: 20px;
+    background-color: #dba85e;
+    border-radius: 0px 10px 10px 10px;
+    height: 150px;
+    width: 245px;
+    padding: 0px 5px 5px 0px;
+    transition: 0.3s;
+}
+.itens > img{
+    border-radius: 0px 10px 10px 10px;
+}
+.info{
+    background: linear-gradient(0deg, rgba(0,0,0,0) 20%, rgba(219,169,94,1) 100%);
+    position: absolute;
+    height: 155px;
+    width: 245px;
+    margin-top: -155px;
+    display: flex;
+    flex-direction: column-reverse;
+    display: none;
+    transition: 0.3s;
+}
+.info > input{
+    background-color: #db53cc;
+    border: 0px;
+    padding: 10px;
+    width: 150px;
+    margin-left: 55px;
+    cursor: pointer;
+}
+.info > p{
+    color: white;
+    margin: 0px 85px 90px;
+    font-weight: bolder;
+    font-size: 15px;
+    background-color: #db53cb;
+    padding: 2px;
+    border-radius: 5px;
+}
+.s_imagem{
+    display: block;
+    margin: 45px auto;
+}
+#promo-g{
+    height: 400px;
+    width: 900px;
+    background-color: rgba(165, 42, 42, 0.432);
+    margin: 10px auto;
+}
+
+/* Pseudos */
+
+.itens:hover{
+    background-color: #db53cb;
+}
